@@ -8,6 +8,6 @@ public class FallbackController {
 
     @GetMapping("/fallback")
     public String fallback(){
-        return "服务不可用！aaaaa";
+        return "服务不可用！";
     }
 }
